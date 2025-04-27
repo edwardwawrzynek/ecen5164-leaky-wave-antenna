@@ -3,6 +3,8 @@ clear; close all;
 f0 = 10e9;
 gamma = 0.8613+1j*0.4836;
 
+gamma = 0.8393 - 0.5207j;
+
 e0 = 8.854*10^-12;
 u0 = 4*pi*10^-7;
 
@@ -14,12 +16,13 @@ eta0 = sqrt(u0/e0);
 k0 = 2*pi/lambda0;
 k1 = k0*sqrt(er1);
 space = 0.0174425;
-gammaD = gamma*exp(2j*k0*space);
+%gammaD = gamma*exp(2j*k0*space);
+gammaD = gamma;
 
 etaIn = eta0*(1+gammaD)/(1-gammaD);
 
 eta1 = eta0/sqrt(er1);
-d = 2.54*10^-3; %mm
+d = 2.54e-3; %mm
 
 
 eta_sheet = ((1/etaIn)-(1/(1j*eta1*tan(k1*d))))^-1;
