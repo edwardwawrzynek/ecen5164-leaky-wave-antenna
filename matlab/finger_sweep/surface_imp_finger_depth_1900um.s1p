@@ -11,7 +11,7 @@
 !        copp_t = 17.5um
 !        deembed = 20mm
 !        depth = 1.524mm
-!        finger_depth = 1.2mm
+!        finger_depth = 1.9mm
 !        finger_width = 515.75um
 !        gap = 500um
 !        length = 10mm
@@ -21,6 +21,6 @@
 # GHz S MA R 376.730313
 ! Terminal data exported
 ! Port[1] = 1
-10                             1                99.031813203413  
-! Gamma         0                209.584502195168 
-! Port Impedance         376.730313474968 0                
+10                             1                78.6685815004667 
+! Gamma         0                209.584502195169 
+! Port Impedance         376.730313474967 0                

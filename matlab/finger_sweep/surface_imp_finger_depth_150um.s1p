@@ -1,6 +1,6 @@
 ! Touchstone file exported from HFSS 2021.2.0
 !        File:           C:/Users/Edward/Documents/ecen5164-leaky-wave-antenna/HFSS/surface_imp.aedt
-!        Generated:      4:12:09 PM  Apr 29, 2025
+!        Generated:      4:12:08 PM  Apr 29, 2025
 !        Design:         HFSSDesign1
 !        Project:        surface_imp
 !        Setup:          Setup1
@@ -11,7 +11,7 @@
 !        copp_t = 17.5um
 !        deembed = 20mm
 !        depth = 1.524mm
-!        finger_depth = 1.2mm
+!        finger_depth = 0.15mm
 !        finger_width = 515.75um
 !        gap = 500um
 !        length = 10mm
@@ -21,6 +21,6 @@
 # GHz S MA R 376.730313
 ! Terminal data exported
 ! Port[1] = 1
-10                             1                99.031813203413  
-! Gamma         0                209.584502195168 
-! Port Impedance         376.730313474968 0                
+10                             1                -150.069513790571 
+! Gamma         0                209.584502195171 
+! Port Impedance         376.730313474964 0                
