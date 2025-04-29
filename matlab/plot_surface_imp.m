@@ -14,7 +14,7 @@ function plot_surface_imp
 
     % range of swept gap sizes
     gap_sizes = 50:50:2540;
-    surf_reactance = zeros(numel(gap_sizes), 1);
+    surf_reactance = zeros(1, numel(gap_sizes));
     % calculate the surface impedance for each gap size
     for i = 1:numel(gap_sizes)
         gap_size = gap_sizes(i);
@@ -23,17 +23,20 @@ function plot_surface_imp
         eta_x = eta_surf(gamma, f0, er1, d);
         surf_reactance(i) = eta_x;
     end
-    % fit relationship
-    p = polyfit(surf_reactance, gap_sizes, 6);
+    % fit relationship to rational
+    f = fit(surf_reactance', gap_sizes', 'rat54');
     surf_reactance_eval = min(surf_reactance):5:max(surf_reactance);
-    gap_sizes_eval = polyval(p, surf_reactance_eval);
+    gap_sizes_eval = feval(f, surf_reactance_eval);
+    
+    fc = coeffvalues(f);
+    disp("gap_size_um = ("+fc(1)+"*X.^5 + "+fc(2)+"*X.^4 + "+fc(3)+"*X.^3 + "+fc(4)+"*X.^2 + "+fc(5)+"*X + "+fc(6)+") ./ (X.^4 + "+fc(7)+"*X.^3 + "+fc(8)+"*X.^2 + "+fc(9)+"*X + "+fc(10)+")");
 
     plot(surf_reactance, gap_sizes, 'o');
     hold on;
     plot(surf_reactance_eval, gap_sizes_eval, '-k');
     grid on;
     xlabel("Im($\eta_{surf}$) ($\Omega$)");
-    ylabel("Gap Size (um)");
+    ylabel("Gap Size ($\mu$m)");
 end
 
 % dembed gamma by a distance d

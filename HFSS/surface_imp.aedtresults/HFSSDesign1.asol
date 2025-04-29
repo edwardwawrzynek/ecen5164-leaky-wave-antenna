@@ -1,0 +1,274 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002025, month=000000000004, day=000000000017, hour=000000000016, min=000000000003, sec=000000000038)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000006761, lin=000000000253, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'SolutionBlock1'
+	ProductName=''
+	CircuitName='HFSSDesign1'
+	VersionID=616
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=719
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='a=\'28.25mm\' copp_t=\'17.5um\' deembed=\'17.442499999999999mm\' depth=\'2.54mm\' gap=\'0.5mm\' length=\'10mm\' rad_bound=\'20mm\'', ID=718)
+		Map(V='a=\'28.25mm\' copp_t=\'17.5um\' deembed=\'17.442499999999999mm\' depth=\'2.54mm\' gap=\'1mm\' length=\'10mm\' rad_bound=\'20mm\'', ID=659)
+	$end 'VariationIDs'
+	$begin 'LinkedDataList'
+	$end 'LinkedDataList'
+	$begin 'InitialMeshes'
+		M(VID=659, Ver=616, Dir='DV659_V616.imesh/')
+	$end 'InitialMeshes'
+	MeshAssemVersionID=0
+	$begin 'NextAssemVersionID'
+		NextUniqueID=1
+		MoveBackwards=false
+	$end 'NextAssemVersionID'
+	$begin 'DefinitionMeshes'
+		$begin 'DefMeshes_Comp-1'
+			DefinitionID=-1
+			VersionID=0
+			VIDMap('a=\'28.25mm\' copp_t=\'17.5um\' depth=\'2.54mm\' gap=\'1mm\' rad_bound=\'20mm\'', 667)
+			DM(VID=667, Ver=0, Dir='NDV667_V0.dmesh/')
+		$end 'DefMeshes_Comp-1'
+	$end 'DefinitionMeshes'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=659, Ver=616, Dir='DV659_MI0_V616.sd/')
+		$end 'SubData'
+	$end 'MI'
+	VersionID2=617
+$end 'SolutionBlock1'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=79, Instance=\'SetupDefinition\', Solution=-1, VersionID=616)'='SolutionBlock2'
+	'SolutionKey(SimSetup=79, Instance=\'SolutionDefinition\', Solution=80, VersionID=616)'='SolutionBlock4'
+	'SolutionKey(SimSetup=79, Instance=\'SolutionDefinition\', Solution=81, VersionID=616)'='SolutionBlock3'
+$end 'BlockMapName'
+$begin 'SolutionBlock2'
+	SimSetupID=79
+	SimSetupName='Setup1'
+	VersionID=616
+	$begin 'EmConvergenceData'
+		EmConv(VID=659, Ver=616, EmConv='DV659_S79_V616.EMConvData')
+	$end 'EmConvergenceData'
+	IsImported=false
+	IsTable=false
+	SolveSetupID=0
+	$begin 'CurrMeshes'
+		M(VID=659, Ver=616, Dir='DV659_S79_V616.cmesh/')
+	$end 'CurrMeshes'
+	MeshAssemVersionID=0
+	$begin 'NextAssemVersionID'
+		NextUniqueID=1
+		MoveBackwards=false
+	$end 'NextAssemVersionID'
+	$begin 'ADP'
+		$begin 'SubData'
+			ID=14
+			ADP(VID=659, Ver=616, Dir='DV659_S79_ADP14_V616.sd/')
+		$end 'SubData'
+	$end 'ADP'
+	$begin 'SU'
+		$begin 'SubData'
+			ID=1
+			SU(VID=659, Ver=616, File='DV659_S79_SD1_V616.su')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=2
+			SU(VID=659, Ver=616, File='DV659_S79_SD2_V616.su')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=3
+			SU(VID=659, Ver=616, File='DV659_S79_SD3_V616.su')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=4
+			SU(VID=659, Ver=616, File='DV659_S79_SD4_V616.su')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=5
+			SU(VID=659, Ver=616, File='DV659_S79_SD5_V616.su')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=6
+			SU(VID=659, Ver=616, File='DV659_S79_SD6_V616.su')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=7
+			SU(VID=659, Ver=616, File='DV659_S79_SD7_V616.su')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=8
+			SU(VID=659, Ver=616, File='DV659_S79_SD8_V616.su')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=9
+			SU(VID=659, Ver=616, File='DV659_S79_SD9_V616.su')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=10
+			SU(VID=659, Ver=616, File='DV659_S79_SD10_V616.su')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=11
+			SU(VID=659, Ver=616, File='DV659_S79_SD11_V616.su')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=12
+			SU(VID=659, Ver=616, File='DV659_S79_SD12_V616.su')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=13
+			SU(VID=659, Ver=616, File='DV659_S79_SD13_V616.su')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=14
+			SU(VID=659, Ver=616, File='DV659_S79_SD14_V616.su')
+		$end 'SubData'
+	$end 'SU'
+	$begin 'WaveAdapt'
+		WA(VID=659, Ver=616, A=1)
+	$end 'WaveAdapt'
+	$begin 'LastPassNumbers'
+		LP(VID=659, Ver=616, P=14)
+	$end 'LastPassNumbers'
+	$begin 'Profiles'
+		P(VID=659, Ver=616, File='DV659_S79_V616.profile')
+	$end 'Profiles'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=659, Ver=616, Dir='DV659_S79_MI0_V616.sd/')
+		$end 'SubData'
+	$end 'MI'
+$end 'SolutionBlock2'
+$begin 'SolutionBlock3'
+	SolutionName='LastAdaptive'
+	SolutionID=81
+	V=616
+	$begin 'States'
+		F(VID=659, Ver=616)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(10000000000)
+		SolutionType=6
+		CenterFreq=0
+	$end 'Definition'
+	IsImported=false
+	IsTable=false
+	IsMatrixDataTable=false
+	SweepID=-1
+	KeepAllFastSweepFields=false
+	$begin 'M'
+		$begin 'SubData'
+			ID=0
+			M(VID=659, Ver=616, File='DV659_SOL81_M0_V616.sd')
+		$end 'SubData'
+	$end 'M'
+	$begin 'Fields'
+		IDDblMap(672, 10000000000)
+		$begin 'DataMap'
+			VID=659
+			Ver=616
+			F(DblID=672, Dir='DV659_S81_V616_F672/')
+		$end 'DataMap'
+	$end 'Fields'
+$end 'SolutionBlock3'
+$begin 'SolutionBlock4'
+	SolutionName='AdaptivePass'
+	SolutionID=80
+	V=616
+	$begin 'States'
+		F(VID=659, Ver=616)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(10000000000)
+		SolutionType=6
+		CenterFreq=0
+	$end 'Definition'
+	IsImported=false
+	IsTable=false
+	IsMatrixDataTable=false
+	SweepID=-1
+	KeepAllFastSweepFields=false
+	$begin 'M'
+		$begin 'SubData'
+			ID=1
+			M(VID=659, Ver=616, File='DV659_SOL80_M1_V616.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=2
+			M(VID=659, Ver=616, File='DV659_SOL80_M2_V616.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=3
+			M(VID=659, Ver=616, File='DV659_SOL80_M3_V616.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=4
+			M(VID=659, Ver=616, File='DV659_SOL80_M4_V616.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=5
+			M(VID=659, Ver=616, File='DV659_SOL80_M5_V616.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=6
+			M(VID=659, Ver=616, File='DV659_SOL80_M6_V616.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=7
+			M(VID=659, Ver=616, File='DV659_SOL80_M7_V616.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=8
+			M(VID=659, Ver=616, File='DV659_SOL80_M8_V616.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=9
+			M(VID=659, Ver=616, File='DV659_SOL80_M9_V616.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=10
+			M(VID=659, Ver=616, File='DV659_SOL80_M10_V616.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=11
+			M(VID=659, Ver=616, File='DV659_SOL80_M11_V616.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=12
+			M(VID=659, Ver=616, File='DV659_SOL80_M12_V616.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=13
+			M(VID=659, Ver=616, File='DV659_SOL80_M13_V616.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=14
+			M(VID=659, Ver=616, File='DV659_SOL80_M14_V616.sd')
+		$end 'SubData'
+	$end 'M'
+$end 'SolutionBlock4'
+$begin '$index$'
+	$begin '$index$'
+		BlockMapName(pos=1565, lin=39, lvl=0)
+		SolutionBlock4(pos=4977, lin=176, lvl=0)
+		SolutionBlock3(pos=4314, lin=143, lvl=0)
+		SolutionBlock2(pos=1951, lin=45, lvl=0)
+		SolutionBlock1(pos=370, lin=1, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=6761, lin=253, lvl=0)
+	$end '$index$'
+$end '$index$'
+                                                                                                                                                                                                                                                                                                                           
