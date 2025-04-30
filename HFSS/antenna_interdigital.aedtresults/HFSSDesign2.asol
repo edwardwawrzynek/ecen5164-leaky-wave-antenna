@@ -1,0 +1,104 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002025, month=000000000004, day=000000000029, hour=000000000023, min=000000000013, sec=000000000056)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000002794, lin=000000000084, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'SolutionBlock1'
+	ProductName=''
+	CircuitName='HFSSDesign2'
+	VersionID=350
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=405
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='a=\'28.25mm\' antenna_width=\'28.996499999999997mm\' copp_t=\'17.5um\' depth=\'1.524mm\' end_length=\'10um\' end_width=\'28.996499999999997mm\' finger_depth1=\'1180um\' finger_depth10=\'1091um\' finger_depth2=\'1091um\' finger_depth3=\'878um\' finger_depth4=\'662um\' finger_depth5=\'456um\' finger_depth6=\'334um\' finger_depth7=\'456um\' finger_depth8=\'662um\' finger_depth9=\'878um\' finger_width=\'515.75um\' length=\'39.399999999999999mm\' mt=\'10mil\' num_cells=\'8\' num_fingers=\'19\' start_width=\'87mil\' taper_length=\'35mm\'', ID=367)
+	$end 'VariationIDs'
+	$begin 'LinkedDataList'
+	$end 'LinkedDataList'
+	MeshAssemVersionID=326
+	$begin 'NextAssemVersionID'
+		NextUniqueID=327
+		MoveBackwards=false
+	$end 'NextAssemVersionID'
+	$begin 'MI'
+	$end 'MI'
+	VersionID2=351
+$end 'SolutionBlock1'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=364, Instance=\'SetupDefinition\', Solution=-1, VersionID=0)'='SolutionBlock4'
+	'SolutionKey(SimSetup=364, Instance=\'SolutionDefinition\', Solution=365, VersionID=0)'='SolutionBlock2'
+	'SolutionKey(SimSetup=364, Instance=\'SolutionDefinition\', Solution=366, VersionID=0)'='SolutionBlock3'
+$end 'BlockMapName'
+$begin 'SolutionBlock2'
+	SolutionName='AdaptivePass'
+	SolutionID=365
+	V=0
+	$begin 'States'
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(10000000000)
+		SolutionType=6
+		CenterFreq=0
+	$end 'Definition'
+	IsImported=false
+	IsTable=false
+	IsMatrixDataTable=false
+	SweepID=-1
+	KeepAllFastSweepFields=false
+$end 'SolutionBlock2'
+$begin 'SolutionBlock3'
+	SolutionName='LastAdaptive'
+	SolutionID=366
+	V=0
+	$begin 'States'
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(10000000000)
+		SolutionType=6
+		CenterFreq=0
+	$end 'Definition'
+	IsImported=false
+	IsTable=false
+	IsMatrixDataTable=false
+	SweepID=-1
+	KeepAllFastSweepFields=false
+$end 'SolutionBlock3'
+$begin 'SolutionBlock4'
+	SimSetupID=364
+	SimSetupName='Setup1'
+	VersionID=0
+	IsImported=false
+	IsTable=false
+	SolveSetupID=0
+	MeshAssemVersionID=0
+	$begin 'NextAssemVersionID'
+		NextUniqueID=1
+		MoveBackwards=false
+	$end 'NextAssemVersionID'
+	$begin 'ADP'
+	$end 'ADP'
+	$begin 'SU'
+	$end 'SU'
+	$begin 'MI'
+	$end 'MI'
+$end 'SolutionBlock4'
+$begin '$index$'
+	$begin '$index$'
+		SolutionBlock2(pos=1742, lin=29, lvl=0)
+		SolutionBlock3(pos=2099, lin=47, lvl=0)
+		SolutionBlock4(pos=2456, lin=65, lvl=0)
+		BlockMapName(pos=1357, lin=23, lvl=0)
+		SolutionBlock1(pos=370, lin=1, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=2794, lin=84, lvl=0)
+	$end '$index$'
+$end '$index$'
