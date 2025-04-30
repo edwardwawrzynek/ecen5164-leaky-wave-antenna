@@ -1,0 +1,26 @@
+! Touchstone file exported from HFSS 2021.2.0
+!        File:           C:/Users/Edward/Documents/ecen5164-leaky-wave-antenna/HFSS/antenna_interdigital.aedt
+!        Generated:      9:08:30 PM  Apr 29, 2025
+!        Design:         HFSSDesign1
+!        Project:        antenna_interdigital
+!        Setup:          Setup1
+!        Solution:       LastAdaptive
+!
+! Variables:
+!        a = 28.25mm
+!        copp_t = 17.5um
+!        deembed = 20mm
+!        depth = 1.524mm
+!        finger_depth = 1.3mm
+!        finger_width = 515.75um
+!        gap = 500um
+!        length = 10mm
+!        mt = 10mil
+!        rad_bound = 21.5415mm
+!
+# GHz S MA R 376.730313
+! Terminal data exported
+! Port[1] = 1
+10                             1                97.0593131065684 
+! Gamma         0                209.584502195168 
+! Port Impedance         376.730313474972 0                
