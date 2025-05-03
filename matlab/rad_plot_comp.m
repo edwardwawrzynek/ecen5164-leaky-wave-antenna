@@ -1,0 +1,50 @@
+clear; close all;
+
+A = readmatrix("C:\Users\sockg\OneDrive\Documents\Documents\CU Boulder 2024-2025\Spring\Metamaterials\ecen5164-leaky-wave-antenna\testing\gain_sim.csv");
+
+nine_five = A(1:361,4);
+ten = A(362:722,4);
+ten_five = A(723:1083,4);
+eleven = A(1084:1444,4);
+theta = deg2rad(A(1:361,3));
+
+indices = find(abs(nine_five)>35);
+nine_five(indices) = -35;
+
+indices = find(abs(ten)>35);
+ten(indices) = -35;
+
+indices = find(abs(ten_five)>35);
+ten_five(indices) = -35;
+
+indices = find(abs(eleven)>35);
+eleven(indices) = -35;
+
+%% Plot Sim
+f1 = figure;
+polaraxes('RLim', [-35 0],'thetadir', 'clockwise', ...
+  'thetazerolocation', 'top');
+hold on
+polarplot(theta,nine_five,'LineWidth',1)
+f1.Position = [100 100 500 500];
+
+f2=figure;
+polaraxes('RLim', [-35 0],'thetadir', 'clockwise', ...
+  'thetazerolocation', 'top');
+hold on
+polarplot(theta,ten,'LineWidth',1)
+f2.Position = [100 100 500 500];
+
+f3=figure;
+polaraxes('RLim', [-35 0],'thetadir', 'clockwise', ...
+  'thetazerolocation', 'top');
+hold on
+polarplot(theta,ten_five,'LineWidth',1)
+f3.Position = [100 100 500 500];
+
+f4=figure;
+polaraxes('RLim', [-35 0],'thetadir', 'clockwise', ...
+  'thetazerolocation', 'top');
+hold on
+polarplot(theta,eleven,'LineWidth',1)
+f4.Position = [100 100 500 500];
