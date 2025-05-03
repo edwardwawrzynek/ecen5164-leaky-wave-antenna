@@ -1,0 +1,23 @@
+! Touchstone file exported from HFSS 2021.2.0
+!        File:           C:/Users/Edward/ecen5164-leaky-wave-antenna/HFSS/surface_imp.aedt
+!        Generated:      4:49:46 PM  Apr 22, 2025
+!        Design:         R4350_Sweep
+!        Project:        surface_imp
+!        Setup:          Setup1
+!        Solution:       LastAdaptive
+!
+! Variables:
+!        a = 28.25mm
+!        copp_t = 17.5um
+!        deembed = 20mm
+!        depth = 50mil
+!        gap = 2350um
+!        length = 10mm
+!        rad_bound = 21.2875mm
+!
+# GHz S MA R 376.730313
+! Terminal data exported
+! Port[1] = 1
+10                             1                26.7106644359771 
+! Gamma         0                209.584502195168 
+! Port Impedance         376.730313474969 0                

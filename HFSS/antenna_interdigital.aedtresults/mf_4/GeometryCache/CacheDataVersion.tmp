@@ -1,0 +1,12 @@
+$begin 'CacheDataVersion'
+	DataVersion=-1
+$end 'CacheDataVersion'
+$begin 'VariableValues'
+	length='55mm'
+	depth='60mil'
+	copp_t='17.5um'
+	start_width='87mil'
+	taper_length='35mm'
+	end_width='30mm'
+	end_length='10mm'
+$end 'VariableValues'
